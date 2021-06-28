@@ -1,28 +1,4 @@
 {
-  "_from": "coffee2closure",
-  "_id": "coffee2closure@0.1.12",
-  "_inBundle": false,
-  "_integrity": "sha1-EdnzGNQjYf3C3amCZLfe2V4AeAE=",
-  "_location": "/coffee2closure",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "coffee2closure",
-    "name": "coffee2closure",
-    "escapedName": "coffee2closure",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/coffee2closure/-/coffee2closure-0.1.12.tgz",
-  "_shasum": "11d9f318d42361fdc2dda98264b7ded95e007801",
-  "_spec": "coffee2closure",
-  "_where": "C:\\Users\\dabe\\WebstormProjects\\coffee2closure",
   "author": {
     "name": "Daniel Steigerwald",
     "email": "daniel@steigerwald.cz"
@@ -33,6 +9,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "esprima": "^1.1.1",
+    "google-closure-compiler-java": "*",
     "underscore": "^1.7.0",
     "underscore.string": "~2.3.3"
   },

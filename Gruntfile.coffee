@@ -62,7 +62,7 @@ module.exports = (grunt) ->
     esteBuilder:
       options:
         closureBuilderPath: 'bower_components/closure-library/closure/bin/build/closurebuilder.py'
-        compilerPath: 'bower_components/closure-compiler/compiler.jar'
+        compilerPath: 'node_modules/google-closure-compiler-java/compiler.jar'
         namespace: 'app.start'
         compilerFlags: [
           '--output_wrapper="(function(){%output%})();"'
